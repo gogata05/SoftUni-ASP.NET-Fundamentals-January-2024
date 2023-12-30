@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = $"Nums 1..{ViewBag.Count}";
+}
+
+@if(ViewBag.Count <= 0)
+{
+    <div>
+        <form class="form-inline">
+            <div class="form-group mx-sm-3 mb-2">
+                <label class="sr-only" name="count">Input number</label>
+                <input type="number" name="count" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+        </form>
+    </div>
+}
+else
+{
+    <div>
+        <h1>@ViewData["Title"]</h1>
+        <ul>
+            @for (int i = 1; i <= ViewBag.Count; i++)
+            {
+                <li>@i</li>
+            }
+        </ul>
+        <form class="form-inline">
+            <div class="form-group mx-sm-3 mb-2">
+                <label class="sr-only" >Input number</label>
+                <input type="number" name="count" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+        </form>
+    </div>
+}
+
+
+
+

@@ -1,0 +1,36 @@
+﻿@{
+    @model ICollection<ProductViewModel>
+    ViewData["Title"] = "All products";
+}
+
+<h2 class="text-center">@ViewData["Title"]</h2>
+<hr />
+<div class="d-grid gap-2 mb-2">
+    <a asp-controller="Product" asp-action="Add" class="btn btn-primary">Add Product</a>
+</div>
+
+@if(Model.Count < 1){
+    <h1>No products added yet!</h1>
+}
+
+else
+{
+    <div class="row">
+    @foreach(var product in Model)
+    {
+        <div class="col-sm-6">  
+           
+            <div class="card">
+                <div class="card-body">
+                        <h2>@product.Name</h2>
+                        <h2>@product.Price</h2>
+
+                    <a asp-controller="Product" asp-action="Edit" asp-route-id="@product.Id" class="btn btn-warning">Edit</a>
+                    <a asp-controller="Product" asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger">Delete</a>
+                </div>
+            </div>
+        </div>
+    }
+    </div>
+}
+

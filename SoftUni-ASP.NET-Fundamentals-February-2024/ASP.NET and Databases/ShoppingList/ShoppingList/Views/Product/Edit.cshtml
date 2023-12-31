@@ -1,0 +1,33 @@
+﻿@{
+    @model ProductFormModel;
+    ViewData["Title"] = "Add product";
+}
+
+<h2 class="text-center">@ViewData["Title"]</h2>
+<hr />
+
+<div>
+    <form method="post">
+        <div class="form-group">
+            <div class="mb-3">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" placeholder="Write your product name here..." />
+                <span asp-validation-for="Name" class="small text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="mb-3">
+                <label asp-for="Price"></label>
+                <input asp-for="Price" class="form-control" placeholder="Write your product price here..." />
+                <span asp-validation-for="Price" class="small text-danger"></span>
+            </div>
+        </div>
+        <input class="btn btn-primary mt-3" type="submit" value="Edit" />
+    </form>
+</div>
+
+@section scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

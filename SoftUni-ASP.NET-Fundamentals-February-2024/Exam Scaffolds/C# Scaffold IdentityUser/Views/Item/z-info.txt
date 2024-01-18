@@ -1,0 +1,31 @@
+//Views:
+3. Uncomment everything in Views:
+           
+//From Models.Item: ItemFormModel.cs ItemViewModel.cs  ItemViewDetailsModel.cs //if "details" exists:
+
+3.1.Add: @model ItemFormModel               to Add.cshtml,Edit.cshtml//Add, Edit
+3.2.Add: @model IEnumerable<ItemViewModel>  to All.cshtml, Profile.cshtml//All, Profile
+3.3.Add: @model ItemViewDetailsModel        to Details.cshtml//if "details" exists
+
+3.4.Add: usings to _ViewImports.cshtml
+
+
+
+
+
+
+
+
+
+//Views:
+
+4.Fix: _Layout.cshtml//with if/else//if needed
+_Layout.cshtml snippet:
+ @if (this.User.Identity.IsAuthenticated)//if logged
+ {
+
+ }
+ else
+ {
+
+ }

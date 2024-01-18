@@ -1,0 +1,19 @@
+Models:
+
+//Add: folder "Category" with "CategoryViewModel.cs" //if "Type" exists
+
+//Add: folder "Item" with:
+
+ItemFormModel.cs
+ItemViewModel.cs
+//ItemDetailViewModel.cs//if "Detail" exists?
+
+Models:
+
+1.1.Add description,shape,attributes:
+
+//req,"?",min,max,range,regular,email,enum int range,displayname,*
+
+//"Add",Edit form shape:
+
+//description...

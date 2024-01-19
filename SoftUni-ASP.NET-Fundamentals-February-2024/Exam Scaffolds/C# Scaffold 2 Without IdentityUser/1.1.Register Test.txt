@@ -1,0 +1,13 @@
+
+
+Register Test:
+1.ConnectionString: "Server=ASUS-PC\\SQLEXPRESS;Database=Homies;Trusted_Connection=True;MultipleActiveResultSets=true"//replace "Homies"
+2.Make: Data: DataConstants.cs //using static Homies.Data.DataConstants;
+3.Program.cs: Identity Requirements
+4.Scaffold: Reg,Log,LogOut/Remove extra code
+5.Add: Data.Entities: Entity.cs(copy/paste description entity)
+6.Add: Data: DbContext (Add: DBSets,OnModelCreating)
+7.Package Manager Console commmands:
+
+8.Open MSSMS and check Top 1000
+9.Test Reg,Log,LogOut

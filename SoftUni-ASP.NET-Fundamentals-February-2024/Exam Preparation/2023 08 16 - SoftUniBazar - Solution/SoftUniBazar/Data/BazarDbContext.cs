@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using SoftUniBazar.Data.Models;
+using SoftUniBazar.Data.Entities;
 
 namespace SoftUniBazar.Data
 {
@@ -10,28 +10,27 @@ namespace SoftUniBazar.Data
             : base(options)
         {
         }
-
         public DbSet<Ad> Ads { get; set; }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<AdBuyer> AdsBuyers { get; set; }
-
+        public DbSet<AdBuyer> AdBuyers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
+        { 
             modelBuilder.Entity<AdBuyer>()
-                .HasKey(e => new { e.BuyerId, e.AdId });
-
+                .HasKey(e => new { e.AdId, e.BuyerId});
+           
             modelBuilder.Entity<AdBuyer>()
-               .HasOne(e => e.Ad)
-               .WithMany()
-               .HasForeignKey(e => e.AdId)
-               .OnDelete(DeleteBehavior.NoAction);
+                .HasOne(e => e.Ad)
+                .WithMany()
+                .HasForeignKey(e => e.AdId)
+                .OnDelete(DeleteBehavior.NoAction);
 
             modelBuilder.Entity<AdBuyer>()
                 .HasOne(e => e.Buyer)
                 .WithMany()
                 .HasForeignKey(e => e.BuyerId)
                 .OnDelete(DeleteBehavior.NoAction);
+
 
             modelBuilder
                 .Entity<Category>()
@@ -62,6 +61,7 @@ namespace SoftUniBazar.Data
                 });
 
             base.OnModelCreating(modelBuilder);
+
         }
     }
 }

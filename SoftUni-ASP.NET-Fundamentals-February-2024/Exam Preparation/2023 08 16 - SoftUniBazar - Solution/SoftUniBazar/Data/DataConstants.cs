@@ -2,19 +2,24 @@
 {
     public static class DataConstants
     {
-        // Ad
-        public const int AdNameMax = 25;
-        public const int AdNameMin = 5;
+        ///Ad
+        //Name
+        public const int AdNameMinLength = 5;
+        public const int AdNameMaxLength = 25;
 
-        public const int AdDescriptionMax = 250;
-        public const int AdDescriptionMin = 15;
+        //Description
+        public const int AdDescriptionMinLength = 15;
+        public const int AdDescriptionMaxLength = 250;
 
-        // Categroy
-        public const int CategoryNameMax = 15;
-        public const int CategoryNameMin = 3;
+        ///Category
+        //Name
+        public const int CategoryNameMinLength = 3;
+        public const int CategoryNameMaxLength = 15;
+
     }
 }
-// Has Name – a string with min length 3 and max length 15 (required) 
-
-// Has Name – a string with min length 5 and max length 25 (required) 
-// Has Description – a string with min length 15 and max length 250 (required) 
+//Ad
+//    •	Has Name – a string with min length 5 and max length 25 (required)
+//    •	Has Description – a string with min length 15 and max length 250 (required)
+//Category
+//    •	Has Name – a string with min length 3 and max length 15 (required)

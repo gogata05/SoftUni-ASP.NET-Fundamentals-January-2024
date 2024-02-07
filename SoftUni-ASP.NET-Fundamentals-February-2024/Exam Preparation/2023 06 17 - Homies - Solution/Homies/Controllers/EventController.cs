@@ -1,11 +1,11 @@
 ﻿using Homies.Data;
-using Homies.Data.Models;
 using Homies.Models.Event;
 using Homies.Models.Type;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
+using Homies.Data.Entities;
 
 namespace Homies.Controllers
 {
@@ -66,7 +66,7 @@ namespace Homies.Controllers
         {
             var eventsToDisplay = await _data
                 .Events
-                .Select(e => new EventViewShortModel()
+                .Select(e => new EventViewModel()
                 {
                     Id = e.Id,
                     Name = e.Name,
@@ -135,7 +135,7 @@ namespace Homies.Controllers
             var userEvents = await _data
                 .EventsParticipants
                 .Where(ep => ep.HelperId == currentUserId)
-                .Select(ep => new EventViewShortModel()
+                .Select(ep => new EventViewModel()
                 {
                     Id = ep.Event.Id,
                     Name = ep.Event.Name,

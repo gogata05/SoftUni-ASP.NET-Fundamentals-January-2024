@@ -1,5 +1,14 @@
-﻿@model IEnumerable<AdViewModel>
+﻿@*
+// Add: IEnumerable<AdViewModel>    to All.cshtml,Cart.cshtml
+// Add: AdFormModel                 to Add.cshtml,Edit.cshtml
+*@
 
+
+
+
+
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<SoftUniBazar.Models.Ad.AdViewModel>
 @{
     ViewBag.Title = "Selected Ads for You";
 }
@@ -39,5 +48,3 @@
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }
-
-

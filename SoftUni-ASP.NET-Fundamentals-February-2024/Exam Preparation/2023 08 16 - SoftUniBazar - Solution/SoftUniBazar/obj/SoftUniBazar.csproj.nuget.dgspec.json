@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gogat\\Documents\\Github\\.net-skeletons\\2023 08 16 - SoftUniBazar - Skeleton\\SoftUniBazar\\SoftUniBazar.csproj": {}
+    "C:\\Users\\gogat\\Documents\\Github\\SoftUni-ASP.NET-Fundamentals-February-2024\\SoftUni-ASP.NET-Fundamentals-February-2024\\Exam Preparation\\2023 08 16 - SoftUniBazar - Solution\\SoftUniBazar\\SoftUniBazar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gogat\\Documents\\Github\\.net-skeletons\\2023 08 16 - SoftUniBazar - Skeleton\\SoftUniBazar\\SoftUniBazar.csproj": {
+    "C:\\Users\\gogat\\Documents\\Github\\SoftUni-ASP.NET-Fundamentals-February-2024\\SoftUni-ASP.NET-Fundamentals-February-2024\\Exam Preparation\\2023 08 16 - SoftUniBazar - Solution\\SoftUniBazar\\SoftUniBazar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gogat\\Documents\\Github\\.net-skeletons\\2023 08 16 - SoftUniBazar - Skeleton\\SoftUniBazar\\SoftUniBazar.csproj",
+        "projectUniqueName": "C:\\Users\\gogat\\Documents\\Github\\SoftUni-ASP.NET-Fundamentals-February-2024\\SoftUni-ASP.NET-Fundamentals-February-2024\\Exam Preparation\\2023 08 16 - SoftUniBazar - Solution\\SoftUniBazar\\SoftUniBazar.csproj",
         "projectName": "SoftUniBazar",
-        "projectPath": "C:\\Users\\gogat\\Documents\\Github\\.net-skeletons\\2023 08 16 - SoftUniBazar - Skeleton\\SoftUniBazar\\SoftUniBazar.csproj",
+        "projectPath": "C:\\Users\\gogat\\Documents\\Github\\SoftUni-ASP.NET-Fundamentals-February-2024\\SoftUni-ASP.NET-Fundamentals-February-2024\\Exam Preparation\\2023 08 16 - SoftUniBazar - Solution\\SoftUniBazar\\SoftUniBazar.csproj",
         "packagesPath": "C:\\Users\\gogat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gogat\\Documents\\Github\\.net-skeletons\\2023 08 16 - SoftUniBazar - Skeleton\\SoftUniBazar\\obj\\",
+        "outputPath": "C:\\Users\\gogat\\Documents\\Github\\SoftUni-ASP.NET-Fundamentals-February-2024\\SoftUni-ASP.NET-Fundamentals-February-2024\\Exam Preparation\\2023 08 16 - SoftUniBazar - Solution\\SoftUniBazar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

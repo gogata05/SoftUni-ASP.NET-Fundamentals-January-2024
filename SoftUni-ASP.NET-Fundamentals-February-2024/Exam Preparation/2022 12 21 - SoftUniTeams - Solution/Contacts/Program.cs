@@ -5,24 +5,39 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ContactsDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
+//builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
 builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
-{
-    options.SignIn.RequireConfirmedAccount = false;
-    options.Password.RequireDigit = false;
-    options.Password.RequireLowercase = false;
-    options.Password.RequireUppercase = false;
-    options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequiredLength = 1;
-})
+    {
+        // Password settings.
+        options.SignIn.RequireConfirmedAccount = false;
+        options.Password.RequireDigit = false;
+        options.Password.RequireNonAlphanumeric = false;
+        options.Password.RequireUppercase = false;
+        options.Password.RequireLowercase = false;
+        //options.Password.RequiredLength = 6;
+        //options.Password.RequiredUniqueChars = 1;
+
+        //// Lockout settings.
+        //options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+        //options.Lockout.MaxFailedAccessAttempts = 5;
+        //options.Lockout.AllowedForNewUsers = true;
+
+        //// User settings.
+        //options.User.AllowedUserNameCharacters =
+        //     "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
+        //options.User.RequireUniqueEmail = false;
+    })
     .AddEntityFrameworkStores<ContactsDbContext>();
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
 
 if (app.Environment.IsDevelopment())
 {

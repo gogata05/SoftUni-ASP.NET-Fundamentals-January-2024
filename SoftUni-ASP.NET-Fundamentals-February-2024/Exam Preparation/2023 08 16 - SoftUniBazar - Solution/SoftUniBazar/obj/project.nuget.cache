@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iE8YKV+k5tGdJrk0wWAYX2H2uNw6qaEhI0htiFMlUsmyBoaiq5cPQOBY9TjqCb2xeHruzU5ZUP3wKkttnYlBiw==",
+  "dgSpecHash": "gcbxqzjIsyCZCKeik5BG1KjW51VXuq17F9Qot8MZSFfVAFT06R/L8tuwbB8Rtyl0OLydGxOmlHln2c+g71Uj1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gogat\\Documents\\Github\\.net-skeletons\\2023 08 16 - SoftUniBazar - Skeleton\\SoftUniBazar\\SoftUniBazar.csproj",
+  "projectFilePath": "C:\\Users\\gogat\\Documents\\Github\\SoftUni-ASP.NET-Fundamentals-February-2024\\SoftUni-ASP.NET-Fundamentals-February-2024\\Exam Preparation\\2023 08 16 - SoftUniBazar - Solution\\SoftUniBazar\\SoftUniBazar.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gogat\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\gogat\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

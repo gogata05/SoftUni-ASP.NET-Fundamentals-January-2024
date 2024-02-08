@@ -1,8 +1,19 @@
-﻿@model EventViewDetailsModel
+﻿@*
+// Add: IEnumerable<EventViewModel>  to All.cshtml,Profile.cshtml
+// Add: EventFormModel               to Add.cshtml,Edit.cshtml
+*@
+
+
+
+
+
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model Homies.Models.Event.EventViewDetailsModel
 
 @{
     ViewBag.Title = "Event Details";
 }
+
 
 <h2 class="text-center">@ViewBag.Title</h2>
 <hr />
@@ -28,8 +39,6 @@
     </div>
 </div>
 
-
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }
-

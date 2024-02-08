@@ -1,4 +1,14 @@
-﻿@model IEnumerable<EventViewModel>
+﻿@*
+// Add: IEnumerable<EventViewModel>  to All.cshtml,Profile.cshtml
+// Add: EventFormModel               to Add.cshtml,Edit.cshtml
+*@
+
+
+
+
+
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<Homies.Models.Event.EventViewModel>
 
 @{
     ViewBag.Title = "Joined Events";
@@ -22,7 +32,6 @@
             {
                 <a asp-controller="Event" asp-action="Details" asp-route-id="@e.Id" class="btn btn-warning mb-2 w-100 p-3 fw-bold">View Details</a>
                 <a asp-controller="Event" asp-action="Edit" asp-route-id="@e.Id" class="btn btn-warning mb-2 w-100 p-3 fw-bold">Edit</a>
-                <a asp-controller="Event" asp-action="Delete" asp-route-id="@e.Id" class="btn btn-warning mb-2 w-100 p-3 fw-bold">Delete</a>
             }
             else
             {

@@ -23,3 +23,7 @@ header{
 section, section > div > p > a, section > form > div > p > a {
     color: white;
 }
+
+.form-floating {
+    color: grey;
+}

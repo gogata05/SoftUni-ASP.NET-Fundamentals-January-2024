@@ -146,8 +146,6 @@ h6, .h6 {
   font-size: 1rem;
 }
 
-
-
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -4084,18 +4082,18 @@ textarea.form-control-lg {
   .navbar-expand-sm .offcanvas-header {
     display: none;
   }
-    .navbar-expand-sm .offcanvas {
-        position: inherit;
-        bottom: 0;
-        z-index: 1000;
-        flex-grow: 1;
-        visibility: visible !important;
-        background-color: transparent;
-        border-right: 0;
-        border-left: 0;
-        transition: none;
-        transform: none;
-    }
+  .navbar-expand-sm .offcanvas {
+    position: inherit;
+    bottom: 0;
+    z-index: 1000;
+    flex-grow: 1;
+    visibility: visible !important;
+    background-color: transparent;
+    border-right: 0;
+    border-left: 0;
+    transition: none;
+    transform: none;
+  }
   .navbar-expand-sm .offcanvas-top,
 .navbar-expand-sm .offcanvas-bottom {
     height: auto;

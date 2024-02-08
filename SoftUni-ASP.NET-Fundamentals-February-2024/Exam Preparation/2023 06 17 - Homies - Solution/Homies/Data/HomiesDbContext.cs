@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Type = Homies.Data.Entities.Type;
-
 namespace Homies.Data
 {
     public class HomiesDbContext : IdentityDbContext
@@ -10,18 +9,20 @@ namespace Homies.Data
         public HomiesDbContext(DbContextOptions<HomiesDbContext> options)
             : base(options)
         {
-
         }
-
-        public DbSet<Type> Types { get; set; }
         public DbSet<Event> Events { get; set; }
-        public DbSet<EventParticipant> EventsParticipants { get; set; }
-
+        public DbSet<Type> Types { get; set; }
+        public DbSet<EventParticipant> EventParticipants { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
             modelBuilder.Entity<EventParticipant>()
-                .HasKey(e => new { e.HelperId, e.EventId });
+                .HasKey(e => new { e.EventId, e.HelperId});
+            
+            modelBuilder.Entity<EventParticipant>()
+                .HasOne(e => e.Event)
+                .WithMany()
+                .HasForeignKey(e => e.EventId)
+                .OnDelete(DeleteBehavior.NoAction);
 
             modelBuilder.Entity<EventParticipant>()
                 .HasOne(e => e.Helper)
@@ -29,11 +30,15 @@ namespace Homies.Data
                 .HasForeignKey(e => e.HelperId)
                 .OnDelete(DeleteBehavior.NoAction);
 
-            modelBuilder.Entity<EventParticipant>()
-                .HasOne(e => e.Event)
-                .WithMany()
-                .HasForeignKey(e => e.EventId)
-                .OnDelete(DeleteBehavior.NoAction);
+            //if(false)
+            //{
+            //    modelBuilder.Entity<Event>()
+            //            .HasOne(b => b.Type)
+            //            .WithMany(c => c.Events)
+            //        .HasForeignKey(t => t.TypeId)
+            //        .OnDelete(DeleteBehavior.Restrict);
+            //}
+
 
             modelBuilder
                 .Entity<Type>()

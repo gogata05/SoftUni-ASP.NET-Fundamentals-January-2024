@@ -1,4 +1,6 @@
 
+Ctrl+Shift+F
+
 //Make a back-up of this folder before you start rename.
 
 //Rename everything before you copy/paste.

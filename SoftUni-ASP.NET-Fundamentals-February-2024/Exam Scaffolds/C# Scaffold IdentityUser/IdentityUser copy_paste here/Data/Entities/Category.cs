@@ -1,7 +1,6 @@
-﻿//DB Level
-
+﻿
 //pp,pp5
-//db
+//db,sl1,ienumerable-list
 namespace Solution.Data.Entities
 {
     public class Category

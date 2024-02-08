@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FuW6TXTUBOGj+IJNtCUtAh1wmkoUaIoFcuNDc9uaD7J7U6zU6/Blcy71wFXrTpd0foGHS9+C3owoUEcaJVquNg==",
+  "dgSpecHash": "wvXLZDU7uyaJeaqTQfTeTS/xd8KbIoMNjnFbH/C1KKVH2C6WxBElwaf8/xtYLfymT/4KkxY85XpE3YkDp1o/0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gogat\\Music\\C#W Solutions\\2022 12 21 - SoftUniTeams - Solution\\Contacts\\Contacts.csproj",
+  "projectFilePath": "C:\\Users\\gogat\\Documents\\Github\\SoftUni-ASP.NET-Fundamentals-February-2024\\SoftUni-ASP.NET-Fundamentals-February-2024\\Exam Preparation\\2022 12 21 - SoftUniTeams - Solution\\Contacts\\Contacts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gogat\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\gogat\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

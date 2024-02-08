@@ -1,6 +1,6 @@
 ﻿// if "Category" exists
 
-// CategoryViewModel.cs
+// only properties with only: int, string, decimal, double
 //pp,pp5
 namespace Solution.Models.Category
 {
@@ -15,4 +15,7 @@ namespace Solution.Models.Category
 //copy "All","Profile","Add","Edit" category shape here:
 
 
-//copy Category description here:
+
+
+
+// copy Item description here:   and delete unused properties:

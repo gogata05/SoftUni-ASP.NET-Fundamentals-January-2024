@@ -1,7 +1,7 @@
-﻿//DB Level
+﻿
 
 //pp,pp5
-//db
+//db,sl1
 namespace Solution.Data.Entities
 {
     public class ItemBuyer

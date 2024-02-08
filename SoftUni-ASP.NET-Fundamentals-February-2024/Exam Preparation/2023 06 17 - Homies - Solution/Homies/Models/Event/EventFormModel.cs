@@ -32,11 +32,11 @@ namespace Homies.Models.Event
 //req,"?",min,max,range,regular,email,enum int range,displayname,*
 
 // "Add" shape:
-// @Model.Name
-// @Model.Description
-// @Model.Start
-// @Model.End
-// @Model.TypeId
+// Model.Name
+// Model.Description
+// Model.Start
+// Model.End
+// Model.TypeId
 // Model.Types
 
 

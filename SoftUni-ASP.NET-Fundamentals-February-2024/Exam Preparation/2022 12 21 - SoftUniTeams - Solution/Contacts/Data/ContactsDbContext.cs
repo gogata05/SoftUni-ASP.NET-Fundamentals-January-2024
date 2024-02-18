@@ -5,7 +5,7 @@ using System.Reflection.Emit;
 
 namespace Contacts.Data
 {
-    public class ContactsDbContext : IdentityDbContext<ApplicationUser>
+    public class ContactsDbContext : IdentityDbContext<ApplicationUser>//IdentityDbContext<ApplicationUser>
     {
         public ContactsDbContext(DbContextOptions<ContactsDbContext> options)
             : base(options)

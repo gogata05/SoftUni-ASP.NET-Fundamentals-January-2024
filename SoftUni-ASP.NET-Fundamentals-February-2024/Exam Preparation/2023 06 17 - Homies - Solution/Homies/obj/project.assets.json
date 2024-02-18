@@ -11501,11 +11501,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gogat\\Documents\\Github\\.net-skeletons\\2023 06 17 - Homies - Skeleton\\Homies\\Homies.csproj",
+      "projectUniqueName": "C:\\Users\\gogat\\Documents\\Github\\SoftUni-ASP.NET-Fundamentals-February-2024\\SoftUni-ASP.NET-Fundamentals-February-2024\\Exam Preparation\\2023 06 17 - Homies - Solution\\Homies\\Homies.csproj",
       "projectName": "Homies",
-      "projectPath": "C:\\Users\\gogat\\Documents\\Github\\.net-skeletons\\2023 06 17 - Homies - Skeleton\\Homies\\Homies.csproj",
+      "projectPath": "C:\\Users\\gogat\\Documents\\Github\\SoftUni-ASP.NET-Fundamentals-February-2024\\SoftUni-ASP.NET-Fundamentals-February-2024\\Exam Preparation\\2023 06 17 - Homies - Solution\\Homies\\Homies.csproj",
       "packagesPath": "C:\\Users\\gogat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gogat\\Documents\\Github\\.net-skeletons\\2023 06 17 - Homies - Skeleton\\Homies\\obj\\",
+      "outputPath": "C:\\Users\\gogat\\Documents\\Github\\SoftUni-ASP.NET-Fundamentals-February-2024\\SoftUni-ASP.NET-Fundamentals-February-2024\\Exam Preparation\\2023 06 17 - Homies - Solution\\Homies\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -11588,7 +11588,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

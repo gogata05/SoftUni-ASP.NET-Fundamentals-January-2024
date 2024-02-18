@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gogat\\Documents\\Github\\.net-skeletons\\2022 12 21 - SoftUniTeams - Skeleton\\Contacts\\Contacts.csproj": {}
+    "C:\\Users\\gogat\\Documents\\Github\\SoftUni-ASP.NET-Fundamentals-February-2024\\SoftUni-ASP.NET-Fundamentals-February-2024\\Exam Preparation\\2022 12 21 - SoftUniTeams - Solution\\Contacts\\Contacts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gogat\\Documents\\Github\\.net-skeletons\\2022 12 21 - SoftUniTeams - Skeleton\\Contacts\\Contacts.csproj": {
+    "C:\\Users\\gogat\\Documents\\Github\\SoftUni-ASP.NET-Fundamentals-February-2024\\SoftUni-ASP.NET-Fundamentals-February-2024\\Exam Preparation\\2022 12 21 - SoftUniTeams - Solution\\Contacts\\Contacts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gogat\\Documents\\Github\\.net-skeletons\\2022 12 21 - SoftUniTeams - Skeleton\\Contacts\\Contacts.csproj",
+        "projectUniqueName": "C:\\Users\\gogat\\Documents\\Github\\SoftUni-ASP.NET-Fundamentals-February-2024\\SoftUni-ASP.NET-Fundamentals-February-2024\\Exam Preparation\\2022 12 21 - SoftUniTeams - Solution\\Contacts\\Contacts.csproj",
         "projectName": "Contacts",
-        "projectPath": "C:\\Users\\gogat\\Documents\\Github\\.net-skeletons\\2022 12 21 - SoftUniTeams - Skeleton\\Contacts\\Contacts.csproj",
+        "projectPath": "C:\\Users\\gogat\\Documents\\Github\\SoftUni-ASP.NET-Fundamentals-February-2024\\SoftUni-ASP.NET-Fundamentals-February-2024\\Exam Preparation\\2022 12 21 - SoftUniTeams - Solution\\Contacts\\Contacts.csproj",
         "packagesPath": "C:\\Users\\gogat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gogat\\Documents\\Github\\.net-skeletons\\2022 12 21 - SoftUniTeams - Skeleton\\Contacts\\obj\\",
+        "outputPath": "C:\\Users\\gogat\\Documents\\Github\\SoftUni-ASP.NET-Fundamentals-February-2024\\SoftUni-ASP.NET-Fundamentals-February-2024\\Exam Preparation\\2022 12 21 - SoftUniTeams - Solution\\Contacts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -94,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

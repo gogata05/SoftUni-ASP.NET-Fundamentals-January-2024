@@ -15,17 +15,17 @@ namespace Homies.Data.Entities
 
         [Required]
         [StringLength(DataConstants.EventNameMaxLength)]
-        public string Name { get; set; }
+        public string Name { get; set; } = null!;
 
         [Required]
         [StringLength(DataConstants.EventDescriptionMaxLength)]
-        public string Description { get; set; }
+        public string Description { get; set; } = null!;
 
         [Required]
-        public string OrganiserId { get; set; }
+        public string OrganiserId { get; set; } = null!;
 
         [Required]
-        public IdentityUser Organiser { get; set; }
+        public IdentityUser Organiser { get; set; } = null!;
 
         [Required]
         public DateTime CreatedOn { get; set; }
@@ -41,9 +41,10 @@ namespace Homies.Data.Entities
         public int TypeId { get; set; }
 
         [Required]
-        public Type Type { get; set; }
-        
-        public EventParticipant EventsParticipants { get; set; }
+        public Type Type { get; set; } = null!;
+
+
+        //public ICollection<EventParticipant> EventsParticipants { get; set; }//gre6ka w softuni//nqma kolekciq tuk
     }
 }
 //pk,fk,req,max,*
@@ -59,4 +60,5 @@ namespace Homies.Data.Entities
 //    •	Has End – a DateTime with format "yyyy-MM-dd H:mm" (required) 
 //    •	Has TypeId – an int, foreign key (required)
 //    •	Has Type – a Type (required)
-//    •	Has EventsParticipants – a collection of type EventParticipant
+
+//    •	Has EventsParticipants – a collection of type EventParticipant//gre6ka w softuni//nqma kolekciq tuk

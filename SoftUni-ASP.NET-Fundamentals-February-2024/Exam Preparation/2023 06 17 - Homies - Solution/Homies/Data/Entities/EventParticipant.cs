@@ -12,17 +12,17 @@ namespace Homies.Data.Entities
     {
         [Required]
         [ForeignKey(nameof(Helper))]
-        public string HelperId { get; set; }
+        public string HelperId { get; set; } = null!;
 
 
-        public IdentityUser Helper { get; set; }
+        public IdentityUser Helper { get; set; } = null!;
 
         [Required]
         [ForeignKey(nameof(Event))]
         public int EventId { get; set; }
 
 
-        public Event Event { get; set; }
+        public Event Event { get; set; } = null!;
 
     }
 }

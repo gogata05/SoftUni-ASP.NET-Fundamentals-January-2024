@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OomNbuk0prdE5nnmsXZSY8eW9v5gdQ39cdmAvikcn+IN6H0AZLdLwT7SgRE8UiE1tSzNj60+G/EdmqkeeYj2Ig==",
+  "dgSpecHash": "ZvZxqfzPHANL64cIKahebSfog1ZCsCLyPgcBVVfufCUwbduUqMc58brbZccdqqBz0VWTwquIfamtSv252heRAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gogat\\Documents\\Github\\.net-skeletons\\2022 12 21 - SoftUniTeams - Skeleton\\Contacts\\Contacts.csproj",
+  "projectFilePath": "C:\\Users\\gogat\\Documents\\Github\\SoftUni-ASP.NET-Fundamentals-February-2024\\SoftUni-ASP.NET-Fundamentals-February-2024\\Exam Preparation\\2022 12 21 - SoftUniTeams - Solution\\Contacts\\Contacts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gogat\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\gogat\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

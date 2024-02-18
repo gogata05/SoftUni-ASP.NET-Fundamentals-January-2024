@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "URfp/ZsR2PwkFZfeFEVs2Y4d/YbRPyAMmjyR2FoTLyDUR0YGTGHaqnIsc92mXO8eVBW2aP/tAWAB/6HKSAe2XQ==",
+  "dgSpecHash": "Oacux1RyuAf27mXiky1ses0DLS9XGgWa64kdETjIDM44NEfIxz+rOGluHa6Ly7TnrxtZft9J/RSpjlGXhdpKBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gogat\\Documents\\Github\\.net-skeletons\\2023 06 17 - Homies - Skeleton\\Homies\\Homies.csproj",
+  "projectFilePath": "C:\\Users\\gogat\\Documents\\Github\\SoftUni-ASP.NET-Fundamentals-February-2024\\SoftUni-ASP.NET-Fundamentals-February-2024\\Exam Preparation\\2023 06 17 - Homies - Solution\\Homies\\Homies.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gogat\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\gogat\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -2,6 +2,7 @@
 
 //pp,pp5
 //db,sl1
+//icollection3
 using System.ComponentModel.DataAnnotations;
 namespace Contacts.Data.Entities
 {
@@ -33,7 +34,7 @@ namespace Contacts.Data.Entities
         public string Website { get; set; }
 
 
-        public ApplicationUserContact ApplicationUsersContacts { get; set; }
+        public ICollection<ApplicationUserContact> ApplicationUsersContacts { get; set; }
 
     }
 }

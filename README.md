@@ -1,4 +1,4 @@
-<img src="(https://i.imgur.com/FJZirGN.png" alt="Certificate"/>
+<img src="https://i.imgur.com/FJZirGN.png" alt="Certificate"/>
 
 ### 📚 SoftUni-ASP.NET-Fundamentals-February-2024
 
@@ -21,4 +21,4 @@ Towards the end of the course, a complete REST API will be built from scratch us
 
 ### Certificate
 
-![Certificate]((https://i.imgur.com/FJZirGN.png)
+![Certificate](https://i.imgur.com/FJZirGN.png)

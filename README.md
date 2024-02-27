@@ -1,8 +1,7 @@
 <img src="https://i.imgur.com/FJZirGN.png" alt="Certificate"/>
 
-### Course link [here](https://softuni.bg/trainings/4367/asp-net-fundamentals-january-2024)
-
 ### 📚 SoftUni-ASP.NET-Fundamentals-February-2024
+### Course link [here](https://softuni.bg/trainings/4367/asp-net-fundamentals-january-2024)
 
 Welcome to the ASP.NET Fundamentals course! This course will equip participants with the knowledge and skills required to work with ASP.NET Core applications. Throughout this course, you will delve into various aspects of web development,HTTP protocols, sessions, and cookies, as well as with asynchronous processing and more.
 
